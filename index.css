@@ -1,6 +1,28 @@
-/* * {
+* {
+  font-family: 'Open Sans Condensed', sans-serif;;
+} 
 
-} */
+body {
+  background-image: url("/gold-gifts.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+img {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.container {
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.title-text {
+  font-family: 'Dancing Script', cursive;
+}
+
 .center {
   text-align: center;
 }
