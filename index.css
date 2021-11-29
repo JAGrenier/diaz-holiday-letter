@@ -11,19 +11,13 @@ html {
   background-size: cover;
 }
 
-.photo {
-  display: flex;
-}
-
-body {
-  background-color: rgba(244, 248, 249, 0.5);
-  margin: 50px 100px;
-  border-radius: 1rem;
-}
-
 img {
   border-radius: 5px;
   object-fit: cover;
+}
+
+.photo {
+  display: flex;
 }
 
 .landscape {
@@ -34,10 +28,6 @@ img {
 .portrait {
   width: 150px;
   margin-left: 10px;
-}
-
-.container {
-  padding: 50px 100px;
 }
 
 .title-text {
@@ -55,4 +45,51 @@ img {
 ul{
   list-style-type: none;
   padding: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    padding: 10px;
+  }
+  body {
+    background-color: rgba(244, 248, 249, 0.5);
+    margin: 5px 25px;
+    border-radius: 1rem;
+  }
+  .photo {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .container{
+    padding: 20px;
+  }
+  body {
+    background-color: rgba(244, 248, 249, 0.5);
+    margin: 25px 55px;
+    border-radius: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: rgba(244, 248, 249, 0.5);
+    margin: 30px 75px;
+    border-radius: 1rem;
+  }
+  .container {
+    padding: 25px 75px;
+  }  
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: rgba(244, 248, 249, 0.5);
+    margin: 50px 100px;
+    border-radius: 1rem;
+  }
+  .container {
+    padding: 50px 100px;
+  }
 }
