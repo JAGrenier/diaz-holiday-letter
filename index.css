@@ -1,13 +1,20 @@
 * {
-  font-family: 'Open Sans Condensed', sans-serif;;
+  font-family: 'Inter', sans-serif;;
 } 
 
-body {
-  background-image: url("/gold-gifts.jpg");
+html {
+  background: url("/green.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
 
+.opac {
+  background-color: rgba(244, 248, 249, 0.5);
+  margin: 50px 100px;
+  border-radius: 1rem;
 }
+
 
 img {
   width: 150px;
@@ -15,8 +22,8 @@ img {
 }
 
 .container {
-  padding-left: 350px;
-  padding-right: 350px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .title-text {
